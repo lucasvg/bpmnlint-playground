@@ -4,6 +4,7 @@
     "plugin:playground/recommended"
   ],
   "rules": {
-    "playground/no-manual-task": "warn"
+    "playground/no-manual-task": "warn",
+    "playground/emoji-label-required": "warn"
   }
 }

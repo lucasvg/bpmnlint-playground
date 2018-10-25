@@ -10,6 +10,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "bpmnlint-utils": "^1.0.1"
+    "bpmnlint-utils": "^1.0.1",
+    "emoji-regex": "^7.0.1"
   }
 }
