@@ -1,15 +1,18 @@
 module.exports = {
-  configs: {
-    recommended: {
-      rules: {
-        'playground/target-namespace': 'error'
-      }
-    },
-    all: {
-      rules: {
-        'playground/target-namespace': 'warn',
-        'playground/no-manual-task': 'warn'
-      }
-    }
-  }
-}
+	configs: {
+		recommended: {
+			rules: {
+				'playground/target-namespace': 'error'
+			}
+		},
+		all: {
+			rules: {
+				'playground/target-namespace': 'warn',
+				'playground/no-manual-task': 'warn',
+				'playground/exclusive-gateways-should-be-named-with-interrogative-sentences':
+					'warn',
+				'playground/all-dataobjects-should-be-named': 'warn'
+			}
+		}
+	}
+};

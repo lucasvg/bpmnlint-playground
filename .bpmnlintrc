@@ -4,6 +4,8 @@
     "plugin:playground/recommended"
   ],
   "rules": {
-    "playground/no-manual-task": "warn"
+    "playground/no-manual-task": "warn",
+    "playground/exclusive-gateways-should-be-named-with-interrogative-sentences": "warn",
+    "playground/all-dataobjects-should-be-named": "warn"
   }
 }
