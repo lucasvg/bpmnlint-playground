@@ -4,7 +4,7 @@ import BpmnModeler from 'bpmn-js/lib/Modeler';
 
 import bpmnlintConfig from '../.bpmnlintrc';
 
-import defaultDiagramXML from '../diagrams/example.bpmn';
+import defaultDiagramXML from '../diagrams/ProcessoJHipsterComErro2.bpmn';
 
 import fileDrop from 'file-drops';
 

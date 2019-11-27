@@ -14,7 +14,9 @@ module.exports = {
 				'playground/end-event-outgoing': 'error',
 				'playground/activities-with-samename': 'warn',
 				'playground/message-flows-to-message-start': 'warn',
-				'playground/no-incoming-outgoing-flows': 'error'
+				'playground/no-incoming-outgoing-flows': 'error',
+				'playground/no-multiple-path-on-conditional': 'error',
+				'playground/no-timer-event-on-event-gateway': 'error'
 			}
 		}
 	}
